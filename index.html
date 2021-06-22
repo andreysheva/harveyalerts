@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,700;1,300&display=swap');
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvey Alerts</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+
+</head>
+
+<body>
+    <div class="bg-coins"></div>
+    <div class=wrapper>
+        <header class="header">
+            <div class="logo">
+                <a class="harvey">Harvey</p><a class="alerts">Alerts</a>
+            </div>
+        </header>
+        <h1> Get Price Alerts for Any Coin on the Blockchain</h1>
+        <div class="alerts-block gradient-outline">
+            <div class="selectors-wrapper">
+                <p class="selectors">Contract Address:
+                    <input class="address-input field-outline" [type=text]
+                        placeholder="0xdbf03b407c01e7cd3cbea99509d93f8dddc8c6fb">
+                </p>
+                <p class="selectors">
+                    Send me a
+                    <select class="address-input dropdown-outline">
+                        <option value="#ff2323">notification</option>
+                        <option value="#9b1fe8">email</option>
+                        <option value="#66ff00">Telegram</option>
+                        <option value="#ff69b4">WhatsApp</option>
+                        <option value="#ffff12">SMS</option>
+                    </select>
+                    when
+                    <select class="address-input price-outline">
+                        <option value="#ff2323">price</option>
+                        <option value="#9b1fe8">market cap</option>
+                        <option value="#66ff00">volume</option>
+                    </select>
+                    goes
+                    <select class="address-input above-outline">
+                        <option value="#ff2323">above</option>
+                        <option value="#9b1fe8">below</option>
+                    </select>
+                    <input class="address-input dollar-outline" type=number placeholder="$0.00">
+                <div class="button" onclick="location.href='#';" style="cursor: pointer;">SET ALERT
+                </div>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="appswrapper">
+        <a class="apps" href="#"><img src="img/appstore.png"></a>
+        <a class="apps" href="#"><img src="img/playstore.png"></a>
+    </div>
+</footer>
+
+</html>
