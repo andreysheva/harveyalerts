@@ -191,6 +191,12 @@ text-align:center;
 vertical-align: middle;
 }
 
+.button:hover {
+    border: 1px solid #B378E9;
+    transition-duration: 220ms;
+
+}
+
 ::-webkit-input-placeholder { /* Edge */
   color: #39314E;
 }
